@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-image: url("bg3.png"), url("bg1.jpg");
+  background-color: #fffaee;
+  font-family: "Quattrocento", serif;
+  font-style: #484748;
+}
+
+.p {
+  font-family: "Quattrocento", serif;
+  font-size: 24px;
+}
+
+.header {
+  font-family: "Oswald", sans;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: -1rem;
+}
+
+img {
+  height: 100vh;
+}
+
+.textbox {
+  width: 50vh;
+}
+
+.case {
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.space {
+  justify-content: space-between;
+}
+
+@media all and (max-width: 720px) {
+  .p {
+    font-size: 20px;
+  }
+
+  .header {
+    font-size: 32px;
+  }
+
+  img {
+    width: auto;
+    margin-top: 24px;
+    height: auto;
+  }
+
+  .case {
+    margin-left: 24px;
+    margin-right: 24px;
+    flex-direction: column;
+  }
+}
