@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #fffaee;
+    background-image: url("bg3.png"), url("bg1.jpg");
   font-family: "Quattrocento", serif;
   font-style: #484748;
 }
