@@ -15,7 +15,7 @@ body {
 }
 
 .backgroundimg {
-  background-image: url(../hemsida!/images/background\ img\ rainbow.png);
+  background-image: url("./images/backgroundimg.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
